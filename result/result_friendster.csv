@@ -1,0 +1,255 @@
+rm -rf scc_cpu   scc_core.o scc_main.o load_print.o graph.o 
+"/usr/bin/g++"  -c scc_core.cpp -o scc_core.o -I. -fopenmp -O3
+"/usr/bin/g++"  -c scc_main.cpp -o scc_main.o -I. -fopenmp -O3
+"/usr/bin/g++"  -c load_print.cpp -o load_print.o -I. -fopenmp -O3
+"/usr/bin/g++"  -c graph.cpp -o graph.o -I. -fopenmp -O3
+"/usr/bin/g++"   scc_core.o scc_main.o load_print.o graph.o -o scc_cpu  -I. -fopenmp -O3
+args = 11
+Thread = 56, alpha = 30, beta = 200, gamma = 10, theta = 0.1, run_times = 10
+v_count: 68349466 e_count: 2586147869Graph load (success): 68349466 verts, 2586147869 edges 17.1194 second(s)
+
+Runtime: 1
+
+time size_1_first, 37.442
+time size_1, 57.998
+time pivot, 14.090
+largest fw, 442.450
+largest bw, 453.879
+largest fw/bw, 910.419
+trim size_2, 7.226
+trim size_3, 7.443
+wcc time, 12.674
+mice fw-bw time, 150.550
+mice scc time, 163.224
+total time, 1183.752
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 2
+
+time size_1_first, 22.701
+time size_1, 56.611
+time pivot, 10.837
+largest fw, 486.671
+largest bw, 443.842
+largest fw/bw, 941.350
+trim size_2, 6.115
+trim size_3, 7.473
+wcc time, 24.817
+mice fw-bw time, 153.123
+mice scc time, 177.940
+total time, 1212.190
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 3
+
+time size_1_first, 22.798
+time size_1, 51.332
+time pivot, 10.575
+largest fw, 481.884
+largest bw, 337.304
+largest fw/bw, 829.763
+trim size_2, 5.947
+trim size_3, 6.441
+wcc time, 16.119
+mice fw-bw time, 133.202
+mice scc time, 149.321
+total time, 1065.602
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 4
+
+time size_1_first, 25.224
+time size_1, 54.212
+time pivot, 10.240
+largest fw, 417.100
+largest bw, 435.090
+largest fw/bw, 862.430
+trim size_2, 5.772
+trim size_3, 6.974
+wcc time, 11.997
+mice fw-bw time, 137.001
+mice scc time, 148.998
+total time, 1103.610
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 5
+
+time size_1_first, 22.869
+time size_1, 54.664
+time pivot, 9.929
+largest fw, 377.759
+largest bw, 412.389
+largest fw/bw, 800.077
+trim size_2, 5.805
+trim size_3, 6.903
+wcc time, 11.893
+mice fw-bw time, 138.820
+mice scc time, 150.713
+total time, 1041.031
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 6
+
+time size_1_first, 22.916
+time size_1, 77.346
+time pivot, 10.502
+largest fw, 397.354
+largest bw, 450.360
+largest fw/bw, 858.216
+trim size_2, 5.767
+trim size_3, 6.930
+wcc time, 12.029
+mice fw-bw time, 149.781
+mice scc time, 161.810
+total time, 1132.985
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 7
+
+time size_1_first, 23.018
+time size_1, 54.941
+time pivot, 10.670
+largest fw, 482.156
+largest bw, 455.118
+largest fw/bw, 947.944
+trim size_2, 5.539
+trim size_3, 6.810
+wcc time, 11.297
+mice fw-bw time, 157.058
+mice scc time, 168.355
+total time, 1206.607
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 8
+
+time size_1_first, 23.100
+time size_1, 58.656
+time pivot, 12.336
+largest fw, 424.026
+largest bw, 500.979
+largest fw/bw, 937.341
+trim size_2, 5.577
+trim size_3, 7.026
+wcc time, 11.704
+mice fw-bw time, 140.507
+mice scc time, 152.211
+total time, 1183.911
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 9
+
+time size_1_first, 23.039
+time size_1, 54.318
+time pivot, 10.884
+largest fw, 439.527
+largest bw, 440.233
+largest fw/bw, 890.644
+trim size_2, 5.842
+trim size_3, 7.103
+wcc time, 12.019
+mice fw-bw time, 138.346
+mice scc time, 150.365
+total time, 1131.311
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Runtime: 10
+
+time size_1_first, 22.920
+time size_1, 55.748
+time pivot, 11.123
+largest fw, 454.387
+largest bw, 442.699
+largest fw/bw, 908.209
+trim size_2, 5.827
+trim size_3, 7.067
+wcc time, 12.275
+mice fw-bw time, 160.109
+mice scc time, 172.384
+total time, 1172.155
+
+Result:
+largest, 48928140
+trimmed size_1, 18256481
+trimmed size_2, 321353
+trimmed size_3, 63827
+others, 56041
+total, 18697703
+
+Average Time Consumption for Running 10 Times (ms)
+Trim, 95.144
+Elephant SCC, 888.639
+Mice SCC, 159.532
+Total time, 1143.850
+
+------Details------
+Trim size_1, 82.185
+Pivot selection, 11.119
+FW BFS, 440.331
+BW BFS, 437.189
+Trim size_2, 5.942
+Trim size_3, 7.017
+Wcc, 13.682
+Mice fw-bw, 145.850

@@ -1,0 +1,239 @@
+alpha = 0.1, beta = 0.002, thread = 56, async_limit = 1
+Graph load (success): 52579682 verts, 1963263821 edges 12.4486 second(s)
+
+Runtime: 1
+trim_1_times, 2
+
+time size_1_first, 36.417
+time size_1, 197.835
+time pivot, 11.844
+largest fw, 191.700
+largest bw, 318.007
+largest fw/bw, 509.707
+trim size_2, 5.696
+trim size_3, 4.362
+color time, 12.396
+total time, 778.257
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 2
+trim_1_times, 2
+
+time size_1_first, 11.106
+time size_1, 183.144
+time pivot, 11.350
+largest fw, 191.466
+largest bw, 312.476
+largest fw/bw, 503.942
+trim size_2, 5.889
+trim size_3, 4.626
+color time, 12.940
+total time, 732.997
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 3
+trim_1_times, 2
+
+time size_1_first, 11.515
+time size_1, 220.245
+time pivot, 11.606
+largest fw, 193.454
+largest bw, 310.668
+largest fw/bw, 504.122
+trim size_2, 6.421
+trim size_3, 5.181
+color time, 15.319
+total time, 774.409
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 4
+trim_1_times, 2
+
+time size_1_first, 11.736
+time size_1, 212.912
+time pivot, 11.587
+largest fw, 217.504
+largest bw, 310.923
+largest fw/bw, 528.427
+trim size_2, 5.968
+trim size_3, 4.776
+color time, 13.343
+total time, 788.749
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 5
+trim_1_times, 2
+
+time size_1_first, 11.870
+time size_1, 184.120
+time pivot, 11.564
+largest fw, 178.902
+largest bw, 308.419
+largest fw/bw, 487.321
+trim size_2, 5.924
+trim size_3, 4.658
+color time, 13.135
+total time, 718.592
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 6
+trim_1_times, 2
+
+time size_1_first, 11.430
+time size_1, 177.503
+time pivot, 11.601
+largest fw, 180.508
+largest bw, 329.221
+largest fw/bw, 509.729
+trim size_2, 5.936
+trim size_3, 4.647
+color time, 12.981
+total time, 733.827
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 7
+trim_1_times, 2
+
+time size_1_first, 11.962
+time size_1, 176.202
+time pivot, 11.568
+largest fw, 176.310
+largest bw, 332.076
+largest fw/bw, 508.386
+trim size_2, 6.085
+trim size_3, 4.800
+color time, 13.400
+total time, 732.403
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 8
+trim_1_times, 2
+
+time size_1_first, 11.825
+time size_1, 172.286
+time pivot, 12.114
+largest fw, 179.615
+largest bw, 298.265
+largest fw/bw, 477.880
+trim size_2, 6.165
+trim size_3, 4.873
+color time, 13.824
+total time, 698.967
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 9
+trim_1_times, 2
+
+time size_1_first, 12.142
+time size_1, 173.600
+time pivot, 11.784
+largest fw, 178.817
+largest bw, 295.818
+largest fw/bw, 474.635
+trim size_2, 6.160
+trim size_3, 4.836
+color time, 13.965
+total time, 697.122
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105151
+trimmed size_3, 13903
+others, 5982
+total, 12407622
+
+Runtime: 10
+trim_1_times, 2
+
+time size_1_first, 11.732
+time size_1, 176.258
+time pivot, 11.964
+largest fw, 174.360
+largest bw, 296.551
+largest fw/bw, 470.911
+trim size_2, 5.821
+trim size_3, 4.558
+color time, 12.757
+total time, 694.001
+
+Result:
+largest, 40012384
+trimmed size_1, 12282585
+trimmed size_2, 105152
+trimmed size_3, 13903
+others, 5981
+total, 12407622
+
+Average Time Consumption for Running 10 Times (ms)
+Trim, 212.322
+Largest SCC, 497.506
+Small SCC, 13.406
+Total time, 747.119
+
+------Details------
+Trim size_1, 201.584
+Pivot selection, 11.698
+FW BFS, 186.264
+BW BFS, 311.242
+Trim size_2, 6.007
+Trim size_3, 4.732
+Color propagation, 11.915
+Color identify, 1.404
+Color init, 0.019
