@@ -12,11 +12,11 @@ More tutorials will be released soon.
 ## Prerequisites
 The following softwares are required, but the versions do not have to be the same. The versions listed are used in our experiments.
 
+```javascript
 GCC-4.8.5
-
 OpenMP-3.1
-
 Makefile
+```
 
 ## Installing
 Get into the "src/" directory, then compile the source code with Makefile,
@@ -34,7 +34,9 @@ If the prerequisites are correct, the make process should be good. You will get 
 
 ## Authors
 Yuede Ji, email: yuedeji@gwu.edu
+
 Hang Liu, email: hang_liu@uml.edu
+
 H. Howie Huang, email: howie@gwu.edu
 
 ## Reference
