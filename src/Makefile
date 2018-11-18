@@ -1,4 +1,4 @@
-exe = scc_cpu 
+exe = ispan
 
 cc = "$(shell which g++)" 
 #flags = -I. -fopenmp -march=athlon64 -O3

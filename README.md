@@ -5,13 +5,42 @@ Detecting strongly connected components (SCCs) in a directed graph is crucial fo
 
 
 ## Tutorial
-You can find the source code in "src/", some useful scripts in "script/", and some test result under "result/".
+You can find the source code in "src/", some useful scripts in "script/", and some test result under "result/". 
+
 More tutorials will be released soon.
 
+## Prerequisites
+The following softwares are required, but the versions do not have to be the same. The versions listed are used in our experiments.
+
+GCC-4.8.5
+
+OpenMP-3.1
+
+Makefile
+
+## Installing
+Get into the "src/" directory, then compile the source code with Makefile,
+
+```python
+cd src/
+make
+```
+
+If the prerequisites are correct, the make process should be good. You will get the executable file "ispan". Run "ispan" to see the parameters and use the correct ones. For simplicity, you can change the "bash_one.sh" file and run it.
+
+```python
+./bash_one.sh
+```
+
+## Authors
+Yuede Ji, email: yuedeji@gwu.edu
+Hang Liu, email: hang_liu@uml.edu
+H. Howie Huang, email: howie@gwu.edu
 
 ## Reference
 If you use iSpan in your project, please cite the following paper.
-``
+
+```python
 @inproceedings{ji2018s,
     title={iSpan: parallel identification of strongly connected components with spanning trees},
     author={Ji, Yuede and Liu, Hang and Huang, H Howie},
@@ -20,6 +49,7 @@ If you use iSpan in your project, please cite the following paper.
     year={2018},
     organization={IEEE Press}
 }
+```
 
 <!--- ## TODO
 More related codes and files will be released soon.

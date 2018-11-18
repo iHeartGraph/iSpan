@@ -12,7 +12,7 @@ make
 #./scc_cpu /mnt/raid0_huge/yuede/data/baidu/fw_begin.bin /mnt/raid0_huge/yuede/data/baidu/fw_adjacent.bin /mnt/raid0_huge/yuede/data/baidu/bw_begin.bin /mnt/raid0_huge/yuede/data/baidu/bw_adjacent.bin 56 30 200 10 0.01 10
 
 #./scc_cpu /mnt/raid0_huge/yuede/data/baidu/fw_begin.bin /mnt/raid0_huge/yuede/data/baidu/fw_adjacent.bin /mnt/raid0_huge/yuede/data/baidu/bw_begin.bin /mnt/raid0_huge/yuede/data/baidu/bw_adjacent.bin 56 30 200 10 0.1 10
-./scc_cpu /mnt/raid0_huge/yuede/data/dbpedia/fw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/fw_adjacent.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_adjacent.bin 56 30 200 10 0.1 10
+./ispn /mnt/raid0_huge/yuede/data/dbpedia/fw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/fw_adjacent.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_adjacent.bin 56 30 200 10 0.1 10
 
 #./scc_cpu /mnt/raid0_huge/yuede/data/twitter_www/fw_begin.bin /mnt/raid0_huge/yuede/data/twitter_www/fw_adjacent.bin /mnt/raid0_huge/yuede/data/twitter_www/bw_begin.bin /mnt/raid0_huge/yuede/data/twitter_www/bw_adjacent.bin 32 30 200 10 0.1 10
 
