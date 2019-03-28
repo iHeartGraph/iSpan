@@ -5,7 +5,7 @@ Detecting strongly connected components (SCCs) in a directed graph is crucial fo
 
 
 ## Tutorial
-You can find the source code in "src/", some useful scripts in "script/", and some test result under "result/". 
+You can find the source code in "src/", some useful scripts in "script/", and some test result under "result/"
 
 More tutorials will be released soon.
 
@@ -31,6 +31,10 @@ If the prerequisites are correct, the make process should be good. You will get 
 ```python
 ./bash_one.sh
 ```
+
+## Graph format
+
+We are using compressed sparse row (CSR) format stored in binaries. We provide a converter from regular text edge list to our CSR binary format. One can find the converter under "graph_converter/".  
 
 ## Authors
 Yuede Ji, email: yuedeji@gwu.edu
