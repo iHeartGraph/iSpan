@@ -1,7 +1,7 @@
 #test_wikipedia_link_en:$(exe)
 make clean
 make
-./ispn /mnt/raid0_huge/yuede/data/dbpedia/fw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/fw_adjacent.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_adjacent.bin 56 30 200 10 0.1 10
+./ispan /mnt/raid0_huge/yuede/data/dbpedia/fw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/fw_adjacent.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_begin.bin /mnt/raid0_huge/yuede/data/dbpedia/bw_adjacent.bin 56 30 200 10 0.1 10
 
 #./ispan /mnt/raid0_huge/yuede/data/pokec/fw_begin.bin /mnt/raid0_huge/yuede/data/pokec/fw_adjacent.bin /mnt/raid0_huge/yuede/data/pokec/bw_begin.bin /mnt/raid0_huge/yuede/data/pokec/bw_adjacent.bin 56 30 200 10 0.01 10
 
