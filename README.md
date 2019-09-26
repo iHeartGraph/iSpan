@@ -1,9 +1,15 @@
-![Logo of iSpan](https://github.com/iHeartGraph/iSpan/include/logo/logo_transparent.png)
+![Logo of iSpan](include/logo/logo_transparent.png)
 
 # iSpan: Parallel Identification of Strongly Connected Components with Spanning Trees
 
 ## Introduction
-Detecting strongly connected components (SCCs) in a directed graph is crucial for understanding the structure of graphs. Most real-world graphs have one large SCC that contains the majority of the vertices, as well as many small SCCs whose sizes are reversely proportional to the frequency of their occurrences. For both types of SCCs, current approaches that rely on depth or breadth first search (DFS and BFS) face the challenges of both strict synchronization requirement and high computation cost. In this paper, we advocate a new paradigm of identifying SCCs with simple spanning trees, since SCC detection requires only the knowledge of connectivity among the vertices. We have developed a prototype called ISPAN, which consists of parallel, relaxed synchronization construction of spanning trees for detecting the large and small SCCs, combined with fast trims for small SCCs. We further scale ISPAN to distributed memory system by applying different distribution strategies to the data and task parallel jobs. The evaluations show that iSpan is able to significantly outperform current state-of-the-art DFS and BFS-based methods by average 18× and 4×, respectively
+###1. What is strongly connected component?
+Detecting strongly connected components (SCCs) in a directed graph is crucial for understanding the structure of graphs. Most real-world graphs have one large SCC that contains the majority of the vertices, as well as many small SCCs whose sizes are reversely proportional to the frequency of their occurrences. For both types of SCCs, current approaches that rely on depth or breadth first search (DFS and BFS) face the challenges of both strict synchronization requirement and high computation cost. 
+
+![Logo of scc](include/picture/scc_intro.png)
+
+###2. What is iSpan?
+Motivated, we advocate a new paradigm of identifying SCCs with simple spanning trees, since SCC detection requires only the knowledge of connectivity among the vertices. We have developed a prototype called iSpan, which consists of parallel, relaxed synchronization construction of spanning trees for detecting the large and small SCCs, combined with fast trims for small SCCs. We further scale iSpan to distributed memory system by applying different distribution strategies to the data and task parallel jobs. The evaluations show that iSpan is able to significantly outperform current state-of-the-art DFS and BFS-based methods by average 18x and 4x, respectively.
 
 
 ## Tutorial
