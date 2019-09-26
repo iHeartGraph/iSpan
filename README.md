@@ -1,3 +1,5 @@
+![Logo of iSpan](https://github.com/iHeartGraph/iSpan/include/logo/logo_transparent.png)
+
 # iSpan: Parallel Identification of Strongly Connected Components with Spanning Trees
 
 ## Introduction
