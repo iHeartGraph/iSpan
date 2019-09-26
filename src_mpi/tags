@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COLOR_PROPAGATION_H	color_propagation.h	2;"	d
+DEBUG	util.h	35;"	d
+FW_BW_H	fw_bw.h	2;"	d
+INF	scc_core.cpp	23;"	d	file:
+INFTY	util.h	31;"	d
+LOCK	util.h	9;"	d
+NEGATIVE	util.h	32;"	d
+ORPHAN	util.h	33;"	d
+OUTPUT_TIME	util.h	37;"	d
+SCC_COMMON_H	scc_common.h	2;"	d
+TRIM_1_GFQ_H	trim_1_gfq.h	2;"	d
+TRIM_2_3_H	trim_2_3.h	2;"	d
+TRIM_TIMES	util.h	42;"	d
+UNLOCK	util.h	10;"	d
+UNVIS	util.h	34;"	d
+VERBOSE	util.h	36;"	d
+__GRAPH_H__	graph.h	2;"	d
+__H_TIME__	wtime.h	2;"	d
+__UTIL_H__	util.h	2;"	d
+bw_beg_pos	graph.h	/^		long_t *bw_beg_pos;$/;"	m	class:graph
+bw_bfs	fw_bw.h	/^inline void bw_bfs($/;"	f
+bw_bfs_fq	fw_bw.h	/^inline void bw_bfs_fq($/;"	f
+bw_csr	graph.h	/^		vertex_t *bw_csr;$/;"	m	class:graph
+bw_gfq_from_fw	trim_1_gfq.h	/^inline static void bw_gfq_from_fw($/;"	f
+cc	Makefile	/^cc = "$(shell which mpicxx)" $/;"	m
+color_identify	color_propagation.h	/^inline static void color_identify($/;"	f
+color_init	color_propagation.h	/^inline static void color_init($/;"	f
+color_propagation	color_propagation.h	/^inline static void color_propagation($/;"	f
+color_statistic	color_propagation.h	/^inline static void color_statistic(index_t *scc_id,$/;"	f
+color_t	util.h	/^typedef int color_t;$/;"	t
+coloring_wcc	color_propagation.h	/^inline static void coloring_wcc($/;"	f
+coloring_wcc_distribute	color_propagation.h	/^inline static void coloring_wcc_distribute($/;"	f
+deal	batch_test.sh	/^deal () {$/;"	f
+deal	batch_test_all_thread.sh	/^deal () {$/;"	f
+deal	batch_test_hong.sh	/^deal () {$/;"	f
+deal	batch_test_mini.sh	/^deal () {$/;"	f
+degree_rank	color_propagation.h	/^inline static void degree_rank($/;"	f
+deps	Makefile	/^deps = $(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+depth_t	util.h	/^typedef signed char depth_t;$/;"	t
+edge_count	graph.h	/^		long_t edge_count;$/;"	m	class:graph
+exe	Makefile	/^exe = scc_cpu $/;"	m
+flags	Makefile	/^flags = -I. -fopenmp -O3$/;"	m
+fsize	util.h	/^inline off_t fsize(const char *filename) {$/;"	f
+fw_beg_pos	graph.h	/^		long_t *fw_beg_pos;$/;"	m	class:graph
+fw_bfs	fw_bw.h	/^inline void fw_bfs($/;"	f
+fw_bfs_fq	fw_bw.h	/^inline void fw_bfs_fq($/;"	f
+fw_csr	graph.h	/^		vertex_t *fw_csr;$/;"	m	class:graph
+gen_src	graph.h	/^		void gen_src(){};$/;"	f	class:graph
+generate_frontier_queue	trim_1_gfq.h	/^inline static void generate_frontier_queue($/;"	f
+get_queue	trim_1_gfq.h	/^inline static void get_queue($/;"	f
+get_scc_result	load_print.cpp	/^void get_scc_result($/;"	f
+gfq_from_queue	trim_1_gfq.h	/^inline static void gfq_from_queue($/;"	f
+gfq_fw_bw_from_queue	trim_1_gfq.h	/^inline static void gfq_fw_bw_from_queue($/;"	f
+gfq_origin	trim_1_gfq.h	/^inline static void gfq_origin($/;"	f
+graph	graph.cpp	/^graph::graph($/;"	f	class:graph
+graph	graph.h	/^		graph(){};$/;"	f	class:graph
+graph	graph.h	/^class graph$/;"	c
+graph_color	color_propagation.h	/^inline static void graph_color($/;"	f
+graph_load	load_print.cpp	/^graph *graph_load($/;"	f
+groupby	graph.h	/^		void groupby(){};$/;"	f	class:graph
+index_t	util.h	/^typedef int index_t;$/;"	t
+long_t	util.h	/^typedef unsigned int long_t;$/;"	t
+main	scc_main.cpp	/^int main(int args, char **argv)$/;"	f
+mice_fw_bw	fw_bw.h	/^inline void mice_fw_bw($/;"	f
+objs	Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp))\\$/;"	m
+openmp_wcc	openmp_wcc.hpp	/^openmp_wcc($/;"	f
+path_t	util.h	/^typedef double path_t;$/;"	t
+pivot_selection	scc_common.h	/^inline index_t pivot_selection($/;"	f
+pivot_selection_from_fq	scc_common.h	/^inline index_t pivot_selection_from_fq($/;"	f
+print_time_result	load_print.cpp	/^void print_time_result($/;"	f
+process_wcc	fw_bw.h	/^inline void process_wcc($/;"	f
+scc_detection	scc_core.cpp	/^void scc_detection($/;"	f
+src_count	graph.h	/^		index_t src_count;$/;"	m	class:graph
+src_list	graph.h	/^		vertex_t *src_list;$/;"	m	class:graph
+trim_1_first	trim_1_gfq.h	/^inline void trim_1_first($/;"	f
+trim_1_first_gfq	trim_1_gfq.h	/^inline void trim_1_first_gfq($/;"	f
+trim_1_from_fq	trim_1_gfq.h	/^inline void trim_1_from_fq($/;"	f
+trim_1_from_fq_gfq	trim_1_gfq.h	/^inline void trim_1_from_fq_gfq($/;"	f
+trim_1_normal	trim_1_gfq.h	/^inline void trim_1_normal($/;"	f
+trim_1_normal_gfq	trim_1_gfq.h	/^inline void trim_1_normal_gfq($/;"	f
+trim_1_normal_only_size	trim_1_gfq.h	/^inline void trim_1_normal_only_size($/;"	f
+trim_2_from_fq	trim_2_3.h	/^inline void trim_2_from_fq($/;"	f
+trim_2_from_graph	trim_2_3.h	/^inline void trim_2_from_graph($/;"	f
+trim_3_1_from_fq	trim_2_3.h	/^inline void trim_3_1_from_fq($/;"	f
+trim_3_1_from_graph	trim_2_3.h	/^inline void trim_3_1_from_graph($/;"	f
+trim_3_2_from_fq	trim_2_3.h	/^inline void trim_3_2_from_fq($/;"	f
+trim_3_2_from_graph	trim_2_3.h	/^inline void trim_3_2_from_graph($/;"	f
+vert_count	graph.h	/^		index_t vert_count;$/;"	m	class:graph
+vertex_t	util.h	/^typedef int vertex_t;$/;"	t
+weight	graph.h	/^		path_t *weight;$/;"	m	class:graph
+wtime	wtime.h	/^inline double wtime()$/;"	f
+~graph	graph.h	/^		~graph(){};$/;"	f	class:graph
