@@ -1,6 +1,7 @@
 <div align="center">
   <img src="include/logo/logo_transparent.png">
 </div>
+
 ## iSpan: Parallel Identification of Strongly Connected Components with Spanning Trees 
 
 Here are the [Paper](include/paper/iSpan-SC18.pdf) and [Slides](iSpan_slides.pdf) at SC'18.
