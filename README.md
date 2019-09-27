@@ -4,7 +4,7 @@
 
 ## iSpan: Parallel Identification of Strongly Connected Components with Spanning Trees 
 
-Here are the [Paper](include/paper/iSpan-SC18.pdf) and [Slides](iSpan_slides.pdf) at SC'18.
+Here are the [Paper](include/paper/iSpan-SC18.pdf) and [Slides](include/paper/iSpan_slides.pdf) at SC'18.
 
 ## Introduction
 
